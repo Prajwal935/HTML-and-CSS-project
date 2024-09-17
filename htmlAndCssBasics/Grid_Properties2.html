@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid properties 2</title>
+    <style>
+        .container{
+            display:grid;
+            grid-template-areas:
+            'header header header'
+            'content content sidebar'
+            'box-1 box-2 box-2'
+            'box-3 box-3 box-3'
+            'footer footer footer';
+            grid-gap:1rem;
+        }
+        .header{
+            grid-area:header;
+            text-align:center;
+        }.sidebar{
+            grid-area:sidebar;
+        }.box-1{
+            grid-area:box-1;
+        }.box-2{
+            grid-area:box-2;
+        }.box-3{
+            grid-area:box-3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>My Website</h1>
+        </header>
+            <section class="content">
+                <h3>Welcome to my profile</h3>
+                <p>
+                    A transaction should be consistency preserving, meaning that if it is completely executed from beginning to end without interference from other transactions, it should take the database from one consistent state to another
+
+                </p>
+
+            </section>
+            <aside class="sidebar">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>MicroDegree</li>
+                    <li>manglore</li>
+                    <li>banglore</li>
+                    <li>mysore</li>
+                    <li>99-999-999</li>
+            </aside>
+            <div class="box-1">
+                <h3>Heading</h3>
+                <p>A transaction should be consistency preserving, meaning that if it is completely executed from beginning to end without interference from other transactions, it should take the database from one consistent state to another
+                </p>
+            </div>
+            <div class="box-2">
+                <h3>Heading</h3>
+                <p>A transaction should be consistency preserving, meaning that if it is completely executed from beginning to end without interference from other transactions, it should take the database from one consistent state to another
+                </p>
+            </div>
+            <div class="box-3">
+                <h3>Heading</h3>
+                <p>A transaction should be consistency preserving, meaning that if it is completely executed from beginning to end without interference from other transactions, it should take the database from one consistent state to another
+                </p>
+            </div>
+        </div>
+        <footer>
+            <p>copyright 2020</p>
+        </footer>
+    </div>
+
+</body>
+</html>

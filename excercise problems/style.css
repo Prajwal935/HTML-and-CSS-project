@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.body{
+    flex-direction: row;
+}
+.Exercise{
+    position:fixed;
+    background-color: yellow;
+    width:100%;
+    height:50px;
+    padding-top:20px;
+    padding-bottom:15px;
+    font-weight: bold;
+    text-align: center;
+}
+.flex-box{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 100px;
+    padding-left:10px;
+    padding-bottom:15px;
+    background-color:rgb(235, 230, 230);
+    column-gap: 15px;
+    row-gap: 15px;
+    justify-content: space-evenly;
+    padding-right:10px;
+}
+.prob-1{
+    line-height: 30px;
+    border:solid black;
+    border-radius: 10px;
+    padding:10px;
+    background-color: white;
+}
+.prob-1 .p1{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 13px;
+}
+.prob-1 .p2{
+
+    font-size: 15px;
+    margin-top: 12px;
+    font-weight: bold;
+    color:rgb(76, 183, 76)
+}
+.prob-1 .p3{
+    font-size: 16px;
+    margin-top: 5px;
+
+}
+.add-to-cart-1{
+    width:100px;
+    background-color: rgb(255,216,20);
+    border-radius: 15px;
+    height:32px;
+    border:none;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.buy-now{
+    width:100px;
+    background-color: rgb(255,164,28);
+    border-radius: 15px;
+    height:32px;
+    border:none;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.prob-2, .prob-22, .prob-3 , .prob-33, .prob-4{
+    border:solid black;
+    border-radius: 10px;
+    padding:10px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.request-now{
+    width:110px;
+    background-color: black;
+    color:white;
+    height:30px;
+    margin-left:18px;
+    margin-top: 10px;
+}
+.add-to-cart{
+    width:150px;
+    background-color: rgb(255,216,20);
+    border-radius: 15px;
+    height:32px;
+    border:none;
+}
+.sign-up{
+    width:110px;
+    background-color: green;
+    color:white;
+    height:30px;
+    margin-bottom: 15px;
+    margin-left:18px;
+    border-radius: 6px;
+    border:none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.get-started{
+    border-radius: 5px;
+    background-color: rgb(121,82,179);
+    color:white;
+    padding:10px;
+    border:none;
+    width:100px;
+    font-weight: bold;
+}
+.Download{
+    background-color:white;
+    padding:10px;
+    color:rgb(158, 156, 156);
+    width:100px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.linkedin{
+     background-color:rgb(10,102,194);
+    padding:10px;
+    color:white;
+    width:210px;
+    font-weight: bold;
+    border-radius: 25px;
+    border:none;
+}
+.save{
+    background-color: white;
+    color:rgb(10,102,194);
+    border-radius: 25px;
+    width:75px;
+    height:33px;
+    border-width: 1px;
+    border-color:rgb(10,102,194) ;
+}
+.box-1{
+    margin-left: 40px;
+}
+.Two-b{
+    height:40px;
+    width:200px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    background-color: green;
+    border:none;
+    color:white;
+    text-align: center;
+    cursor: pointer;
+    transition:padding-right, padding-left;
+}
+.Two-b:hover{
+    padding-left:200px ;
+    padding-right:200px ;
+}
+
+.prob-33{
+    display:flex;
+    flex-direction: row;
+}
+.Two-bb{
+    height:40px;
+    width:50px;
+    background-color: green;
+    border:none;
+    color:white;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s padding-right, padding-left, margin-top,margin-bottom,margin-left,margin-right;
+}
+.Two-bb:hover{
+    margin-top:0px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-bottom:0px;
+    padding-left:60px ;
+    padding-right:60px ;
+}
+.shadow{
+    width:150px;
+    height:50px;
+    background-color: lightpink;
+    color:orangered;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    transition:padding-right,padding-left,padding-top,padding-bottom;
+    cursor: pointer;
+}
+.shadow:hover{
+    box-shadow: 0px 0px 0px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:-5px;
+    padding-right:5px;
+}

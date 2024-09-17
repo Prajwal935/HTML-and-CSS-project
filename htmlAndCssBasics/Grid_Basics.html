@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Basics</title>
+    <!-- for row is also same just change column into row -->
+    <style>
+        .grid{
+            display:grid;
+           /* grid-template-columns: auto  auto  200px;*/
+           grid-template-columns: 1fr 2fr 3fr;
+           grid-gap: 1rem;
+           grid-column-gap:2rem;
+        }
+        .item{
+            padding:3rem;
+            border:#ccc solid 1px;
+            background: #f4f4f4;
+            font-size: 1.3rem;  
+            text-align: center;
+        }main{
+            display:grid;
+            grid-template-columns: 3fr 1fr;
+            grid: gap 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="item">Item1</div>
+        <div class="item">Item1</div>
+        <div class="item">Item1</div>
+        <div class="item">Item2</div>
+        <div class="item">Item2</div>
+        <div class="item">Item2</div>
+        <main>
+            <section>
+            <h2>welcome</h2>
+            <p>hello every one sdfsdsdfsfffdsdddddddddddddddddddddddddddddddddddddaaaaaaan   dddddddddddj     kkkkkkkkk</p>
+            </section>
+            <aside><h2>
+                Hi everyone
+            </h2>
+        <p>sd   d        ddddddddddddddddd ggggggggggg eeeeeeeeeeeeee tttttttttttttt hhhhhhhhhhhhhhh ssssssssssssss xcccccccccc</p></aside>
+        </main>
+    </div>
+</body>
+</html>
